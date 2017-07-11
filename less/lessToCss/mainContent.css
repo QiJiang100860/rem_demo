@@ -2,5 +2,30 @@
 .main_content {
   box-sizing: border-box;
   padding-top: 0.88rem;
-  padding-bottom: 1.14rem;
+  padding-bottom: 1.1rem;
+}
+.main_content p {
+  font-size: 0.3rem;
+  color: #666;
+  border-top: solid 1px #dedede;
+  line-height: 1.4rem;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+}
+.main_content p span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.main_content p img {
+  display: inline-block;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  border: solid 1px #ccc;
+  vertical-align: middle;
+  margin-right: 0.15rem;
+}
+.main_content p:first-child {
+  border-top: none;
 }

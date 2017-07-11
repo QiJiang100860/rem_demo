@@ -5,14 +5,14 @@ footer {
   width: 100%;
   border-top: solid 1px #dedede;
   height: 1.1rem;
+  background: #ffffff;
 }
 footer div {
   width: 20%;
   text-align: center;
 }
 footer div h1 {
-  font-size: 0.26rem;
-  font-weight: normal;
+  font-size: 0.36rem;
   color: #008000;
   line-height: 1.1rem;
 }
