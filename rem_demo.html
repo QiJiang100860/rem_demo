@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rem适配不同分辨率</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="./lessToCss/index.css">
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth /750*100 + 'px';
+        /*
+        * 1rem = width/
+        *
+        * */
+    </script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a class="back">返回</a>
+            头部
+            <a class="next">下一步</a>
+        </h1>
+    </header>
+    <div class="main_content">
+        这里写主要内容
+    </div>
+    <footer class="clear">
+        <div class="left">
+            <h1>1</h1>
+        </div>
+        <div class="left">
+            <h1>2</h1>
+        </div>
+        <div class="left">
+            <h1>3</h1>
+        </div>
+        <div class="left">
+            <h1>4</h1>
+        </div>
+        <div class="left">
+            <h1>5</h1>
+        </div>
+    </footer>
+</body>
+</html>

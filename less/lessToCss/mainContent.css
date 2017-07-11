@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.main_content {
+  box-sizing: border-box;
+  padding-top: 0.88rem;
+  padding-bottom: 1.14rem;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: solid 1px #dedede;
+  height: 1.1rem;
+}
+footer div {
+  width: 20%;
+  text-align: center;
+}
+footer div h1 {
+  font-size: 0.26rem;
+  font-weight: normal;
+  color: #008000;
+  line-height: 1.1rem;
+}
